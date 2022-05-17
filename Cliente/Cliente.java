@@ -17,7 +17,7 @@ public class Cliente {
   
     try{
       //Chamada do Lookup utilizando as portas padroes e o serviço no registry
-      Calculo calc = (Calculo) Naming.lookup("rmi://192.168.1.103:1099/CalcService");
+      Calculo calc = (Calculo) Naming.lookup("rmi://*IP LOCAL*:1099/CalcService");
       System.out.println("\nResposta é :" + calc.distancia(a,b,c,d));
       
     }catch (Exception e) {
