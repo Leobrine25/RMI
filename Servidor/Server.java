@@ -7,7 +7,7 @@ public class Server {
     public static void main(String[] args) {
         try{
             //Primeiramente, 'cria-se" uma propriedade que o hostname é o ip da maquina
-            System.setProperty("java.rmi.server.hostname", "192.168.1.103");
+            System.setProperty("java.rmi.server.hostname", "*Servidor Local da Maquina*");
             //cria-se a chamada da função calc e faz o stub dela
             Calculo calc = new impCalculo();
             //o port do stub não pode ser a mesma do Registry(1099), 
