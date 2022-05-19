@@ -1,6 +1,7 @@
 # RMI
 Uso do RMI para fazer uma simples calculadora de distancia euclidiana entre 2 computadores.
 A use of RMI to make a simple euclidean distance calculator between 2 computer(Everything in the code is portuguese)
+Feito para aula de 2022 de sistema distribuido
 
 # How to/pt-br
 
